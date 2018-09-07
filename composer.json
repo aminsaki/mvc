@@ -1,0 +1,25 @@
+{
+  "name": "amin",
+  "description": "The amin Framework.",
+   "license": "MIT",
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "wrklst/docxmustache": "^0.0.26"
+  },
+  "autoload": {
+    "classmap": [
+      "app/Http/Controllers",
+      "app/models",
+      "app/database/migrations",
+      "app/database/seeds",
+      "app/tests/TestCase.php"
+    ]
+  },
+  "psr-4": {
+    "App\\": "app/"
+  }
+
+}
+
+
+
